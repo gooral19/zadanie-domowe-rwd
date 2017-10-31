@@ -1,0 +1,52 @@
+@media (min-width: 1170px) {
+    img {
+    height: 100vh;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1170px) {
+    
+    img {
+        height: 70vh;
+        width: 70%;
+        margin-left: 15%;      
+    }
+    
+    #text {
+        width: 30%;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        color: white;
+
+    }
+h1 {
+    font-size: 0.7em;
+
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 400;
+}
+}
+
+@media (max-width: 992px) {
+    
+    img {
+        height: 50vh;
+        width: 50%;
+        margin-left: 25%;
+    
+}
+    #text {
+    width: 45%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(50%, 0%);
+    color: black;
+    text-align: center;
+    }
+}

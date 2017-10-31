@@ -3,8 +3,36 @@
 }
 
 body {
+    
     font-family: 'Verdana', sans-serif;
     margin:0;
-    
-    
+       
+}
+
+header {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    margin-left: 5%;
+    color: white;
+}
+
+h1 {
+    font-size: 1em;
+
+}
+
+h2 {
+    font-size: 2em;
 }
