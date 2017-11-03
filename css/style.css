@@ -10,13 +10,12 @@ body {
 }
 
 header {
-    position: relative;
-}
-
-img {
     width: 100%;
-    background-size: cover;
+    height: 100vh;
+    background-image: url(../img/man-1.jpg);
     background-position: center;
+    background-size: cover;
+    
 }
 
 #text {
